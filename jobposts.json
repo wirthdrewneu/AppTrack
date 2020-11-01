@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "5f98823a4be24232ca70f909"
+  },
+  "Company": "Google",
+  "Role": "SWE",
+  "Type": "full-time",
+  "RecruiterInfo": "recruiter@google.com",
+  "DateApplied": "2020-10-27",
+  "Stage": "Online Assessment",
+  "StageDate": "2020-10-30",
+  "JobDescription": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+},{
+  "_id": {
+    "$oid": "5f98825e4be24232ca70f90a"
+  },
+  "Company": "Microsoft",
+  "Role": "Full Stack Developer",
+  "Type": "full-time",
+  "RecruiterInfo": "recruiter@microsoft.com",
+  "DateApplied": "2020-10-12",
+  "Stage": "Interview",
+  "StageDate": "2020-10-20",
+  "JobDescription": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+},{
+  "_id": {
+    "$oid": "5f9882874be24232ca70f90b"
+  },
+  "Company": "Amazon",
+  "Role": "SDE",
+  "Type": "full-time",
+  "RecruiterInfo": "recruiter@amazon.com",
+  "DateApplied": "2020-10-27",
+  "Stage": "Applied",
+  "StageDate": "2020-10-29",
+  "JobDescription": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+},{
+  "_id": {
+    "$oid": "5f9882b34be24232ca70f90c"
+  },
+  "Company": "Facebook",
+  "Role": "React Developer",
+  "Type": "full-time",
+  "RecruiterInfo": "recruiter@fb.com",
+  "DateApplied": "2020-10-22",
+  "Stage": "Offer",
+  "StageDate": "2020-10-25",
+  "JobDescription": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+},{
+  "_id": {
+    "$oid": "5f98962ab76d085e428777a8"
+  },
+  "Company": "Seedstages Inc",
+  "Role": "Full Stack Developer",
+  "Type": "Intern",
+  "RecruiterInfo": "recruiter@seedstages.com",
+  "DateApplied": "2020-10-27",
+  "Stage": "Applied",
+  "StageDate": "2020-10-31",
+  "JobDescription": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+}]

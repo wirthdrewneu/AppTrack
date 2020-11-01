@@ -1,0 +1,97 @@
+<html>
+
+<head>
+  <title>Job Application Tracker</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1>Job Application Tracker</h1>
+  <p>Backend view made with &hearts;</p>
+  <p>Authors: <strong>Andrew Wirth</strong> | <strong>Harman Sidhu</strong></p>
+
+  <div>
+  <div id = "divErr"></div>
+  <h2>Calendar log</h2>
+  <div class="row container-fluid">
+    <div id="calendardata"></div>
+  </div>
+  <hr />
+  <div class="row container-fluid">
+    <div class="col-6">
+      <h2>Add application</h2>
+
+      <form action="/appform" method="POST">
+        <div class="form-group row">
+          <label for="company" class="col-2 col-form-label">Company</label>
+          <div class="col-10">
+            <input class="form-control" type="text" id="company" name="Company">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="role" class="col-2 col-form-label">Role</label>
+          <div class="col-10">
+            <input class="form-control" type="text" id="role" name="Role">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="type" class="col-2 col-form-label">Type</label>
+          <div class="col-10">
+            <input class="form-control" type="text" id="type" name="Type">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="recruiter" class="col-2 col-form-label">Recruiter Info</label>
+          <div class="col-10">
+            <input class="form-control" type="text" id="recruiter" name="RecruiterInfo">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="appliedDate" class="col-2 col-form-label">Date Applied</label>
+          <div class="col-10">
+            <input class="form-control" type="date" value="2020-10-27" id="appliedDate" name="DateApplied">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="stage" class="col-2 col-form-label">Stage</label>
+          <div class="col-10">
+            <select class="form-control" id="stage" name="Stage">
+              <option>Applied</option>
+              <option>Online Assessment</option>
+              <option>Interview</option>
+              <option>Follow Up</option>
+              <option>Offer</option>
+              <option>Reject</option>
+              <option>Accepted</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="stage" class="col-2 col-form-label">Next Due Date</label>
+          <div class="col-10">
+            <input class="form-control" type="date" value="2020-10-27" id="stage" name="StageDate">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="jobDesc" class="col-2 col-form-label">Job Description</label>
+          <div class="col-10">
+            <textarea class="form-control" id="jobDesc" rows="3" name="JobDescription"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="col-6">
+      <h2>Application Details</h2>
+      <div id="applicationsData"></div>
+    </div>
+  </div>
+  
+  <script src = "./javascripts/main.js"> </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
